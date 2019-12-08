@@ -36,7 +36,7 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-  dir_earn = director_totals(source)
+  dir_earn = directors_totals(source)
   dir_names = list_of_directors(source)
   i = 0
 
